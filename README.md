@@ -38,6 +38,7 @@ termux-setup-storage
 pkg update -y && pkg upgrade -y
 pkg install python git figlet -y
 pip install requests colorama pyfiglet mechanize
+pip install beautifulsoup4 lxml html5lib
 rm -rf FB-AutoCreate
 git clone https://github.com/DARK-NET-403/FB-AutoCreate
 cd FB-AutoCreate
